@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Spartan', sans-serif;
+}
+
+.main-title{
+    margin-top: 80px;
+    margin-left: 17%;
+    margin-right: 17%;
+    margin-bottom: 25px;
+    text-align: center;
+    color: hsl(300, 43%, 22%);
+}
+
+.under-title {
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    margin-bottom: 40px;
+    color: hsla(300, 43%, 22%, 0.6);
+    text-align: center;
+}
+
+.rating {
+    margin-left: 50%;
+    transform: translateX(-50%);
+    height: 80px;
+    width: 87%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-color: hsla(300, 43%, 22%, 0.1);
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.rating-text {
+    padding-top: 15px;
+    padding-bottom: 20px;
+    color: hsl(300, 43%, 22%);
+}
+
+.fa-star {
+    padding-top: 15px;
+    padding-left: 5px;
+    color: #ee923f;
+}
+
+.testimony {
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 20px;
+    height: 250px;
+    width: 87%;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 10px;
+}
+
+.testimony-image{
+    border-radius: 100px;
+    margin-left: 11%;
+    margin-top: 40px;
+    height: 45px;
+    width: 45px;
+    position: absolute;
+}
+
+.testimony-name {
+    margin-left: 30%;
+    margin-top: 40px;
+    position: absolute;
+    color: white;
+    font-size: 15px;
+}
+
+.testimony-title {
+    color: hsl(333, 80%, 67%);
+    font-size: 15px;
+    position: absolute;
+    margin-left: 30%;
+    margin-top: 65px;
+    font-weight: lighter;
+}
+
+.testimony-text {
+    color: white;
+    position: absolute;
+    margin-left: 11%;
+    margin-right: 11%;
+    margin-top: 110px;
+}
+
+.attribution {
+    margin-top: 40px;
+}
