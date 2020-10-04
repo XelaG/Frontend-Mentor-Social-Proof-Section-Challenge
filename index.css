@@ -141,7 +141,33 @@
     transform: translateY(40px);
 }
 
-@media screen and (max-width: 360px){
+.attribution {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+}
+
+@media screen and (max-width: 780px){
+    .rating {
+        width: 100%;
+    }
+    .rating-2 {
+        transform: translateX(0px);
+    }
+
+    .rating-3 {
+        transform: translateX(0px);
+    }
+    .fa-star {
+        font-size: 12px;
+    }
+
+    .rating {
+        margin-bottom: 60px;
+    }
+}
+
+@media screen and (max-width: 600px){
     .row-1 {
         flex-direction: column;
         text-align: center;
@@ -153,6 +179,7 @@
 
     .intro {
         width: 100%;
+        margin-right: 0;
     }
 
     .main-title {
@@ -165,14 +192,12 @@
 
     .ratings{
         width: 100%;
-        margin-right: 10%;
     }
 
     .rating {
         flex-direction: column;
         align-items: center;
         text-align: center;
-        margin-right: 10%;
     }
 
     .stars {
@@ -198,7 +223,7 @@
     }
 
     .testimony {
-        width: 90%;
+        width: 100%;
         margin-bottom: 20px;
     }
 
